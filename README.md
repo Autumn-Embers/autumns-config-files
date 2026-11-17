@@ -1,2 +1,3 @@
 # autumns-config-files
-My config files for alacritty, fish, and maybe others in time.
+My config files for alacritty, fish, ,fastfetch, and fetch.
+and maybe others in time.
