@@ -1,0 +1,171 @@
+[env]
+TERM = "xterm-256color"
+WINIT_X11_SCALE_FACTOR = "1"
+
+[window]
+dynamic_padding = true
+decorations = "full"
+title = "Alacritty@CachyOS"
+opacity = 0.8
+decorations_theme_variant = "Dark"
+startup_mode = "Maximized"
+
+[window.dimensions]
+columns = 100
+lines = 30
+
+[window.class]
+instance = "Alacritty"
+general = "Alacritty"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.cursor]
+text = '#ff00ff'
+cursor = '#ff00ff'
+
+[colors.primary]
+background = '#1d1d1d'
+foreground = '#00ff00'
+
+[colors.normal]
+black   = '#0d0d0d'
+red     = '#FF301B'
+green   = '#00dd00'
+yellow  = '#FFC620'
+blue    = '#0000dd'
+magenta = '#dd00dd'
+cyan    = '#00dddd'
+white   = '#EBEBEB'
+
+[colors.bright]
+black   = '#bdbdbd'
+red     = '#FF4352'
+green   = '#00ff00'
+yellow  = '#FFD750'
+blue    = '#0000ff'
+magenta = '#00ff00'
+cyan    = '#00ffff'
+white   = '#FEFEF8'
+
+[font]
+size = 13
+
+[font.normal]
+family = "pcsenior"
+style = "Regular"
+
+[font.bold]
+family = "pcsenior"
+style = "Bold"
+
+[font.italic]
+family = "pcsenior"
+style = "Italic"
+
+[font.bold_italic]
+family = "pcsenior"
+style = "Bold Italic"
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+save_to_clipboard = true
+
+[cursor]
+style = "Underline"
+vi_mode_style = "None"
+unfocused_hollow = true
+thickness = 0.13
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+mouse = "Middle"
+action = "PasteSelection"
+
+[keyboard]
+[[keyboard.bindings]]
+key = "Paste"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "Copy"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "L"
+mods = "Control"
+action = "ClearLogNotice"
+
+[[keyboard.bindings]]
+key = "L"
+mods = "Control"
+mode = "~Vi"
+chars = "\f"
+
+[[keyboard.bindings]]
+key = "PageUp"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollPageUp"
+
+[[keyboard.bindings]]
+key = "PageDown"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollPageDown"
+
+[[keyboard.bindings]]
+key = "Home"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollToTop"
+
+[[keyboard.bindings]]
+key = "End"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollToBottom"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Control|Shift"
+action = "SearchForward"
+
+[[keyboard.bindings]]
+key = "B"
+mods = "Control|Shift"
+action = "SearchBackward"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+mode = "Vi"
+action = "ClearSelection"
+
+[[keyboard.bindings]]
+key = "Key0"
+mods = "Control"
+action = "ResetFontSize"
+
+[general]
+live_config_reload = true
+working_directory = "None"
+
+

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+      "type": "auto",
+      // Logo type: auto, builtin, small, file, etc.
+    "source": "Anarchy",
+    // Built-in logo name or file path
+    "color": {
+    // Override logo colors
+        "1": "dim_black",
+        "2": "red"
+    },
+},
+
+  "display": {
+        "color": {
+             "title": "green",
+             "keys": "green",},
+             },
+
+  "modules": [
+    "title",
+    "break",
+    "separator",
+    "break",
+    "host",
+    "break",
+    "cpu",
+    "break",
+    "gpu",
+    "break",
+    "memory",
+    "swap",
+    "break",
+    "disk",
+    "break",
+    "display",
+    "battery",
+    "poweradapter",
+    "break",
+    "os",
+    "break",
+    "kernel",
+    "break",
+    "shell",
+    "break",
+    "de",
+    "break",
+    "wm",
+    "break",
+    "packages",
+    "break",
+    "localip",
+    "break",
+    "locale",
+    "break",
+    "separator",
+    "break",
+    "wmtheme",
+    "break",
+    "theme",
+    "break",
+    "icons",
+    "break",
+    "cursor",
+    "break",
+    "font",
+    "break",
+    "terminalfont",
+    "break",
+    "separator",
+    "break",
+    "terminal",
+    "break",
+    "separator",
+    "break",
+    "uptime",
+    "break",
+    "separator",
+    "break",
+    "colors"
+  ]
+}
