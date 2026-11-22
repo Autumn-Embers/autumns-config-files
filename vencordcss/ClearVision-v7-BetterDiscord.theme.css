@@ -14,13 +14,13 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #009030; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #1e93b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --main-color: #ff0000; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #00ff00; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   /* STATUS COLORS */
-  --online-color: #00cc00; /* online status color (hex, rgb or hsl) [default: #43b581] */
-  --idle-color: #cccc00; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
   --dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
   --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
@@ -50,15 +50,15 @@
   --main-font: pixelSans; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   /* CHANNEL COLORS */
-  --channel-normal: var(--interactive-text-default); /* channel text color [default: var(--interactive-text-default)] */
-  --channel-muted: var(--interactive-muted); /* muted channel text color [default: var(--interactive-muted)] */
-  --channel-hover: var(--interactive-text-hover); /* hovered channel text color [default: var(--interactive-text-hover)] */
-  --channel-selected: var(--interactive-text-active); /* selected channel text color [default: var(--interactive-text-active)] */
-  --channel-selected-bg: var(--main-color); /* selected channel background [default: var(--main-color)] */
-  --channel-unread: var(--main-color); /* unread channel text color [default: var(--main-color)] */
-  --channel-unread-hover: var(--hover-color); /* unread channel hover color [default: var(--hover-color)] */
+  --channel-normal: #aaaaaa; /* channel text color [default: var(--interactive-text-default)] */
+  --channel-muted: #676767; /* muted channel text color [default: var(--interactive-muted)] */
+  --channel-hover: #ffffff; /* hovered channel text color [default: var(--interactive-text-hover)] */
+  --channel-selected: #0000ff; /* selected channel text color [default: var(--interactive-text-active)] */
+  --channel-selected-bg: rgba(0, 255, 0, 0.6); /* selected channel background [default: var(--main-color)] */
+  --channel-unread: #ff0000; /* unread channel text color [default: var(--main-color)] */
+  --channel-unread-hover: #00ff00; /* unread channel hover color [default: var(--hover-color)] */
   /* ACCESSIBILITY */
-  --focus-color: var(--main-color); /* outline when pressing TAB key [default: var(--main-color)] */
+  --focus-color: #ffffff; /* outline when pressing TAB key [default: var(--main-color)] */
 }
 
 /* THEME SPECIFIC SHADING */
@@ -97,13 +97,13 @@
 
 /* ONYX THEME */
 :is(.theme-midnight, .theme-light .theme-midnight) {
-  --background-shading: rgba(0, 0, 0, 0.8); /* app background shading color [default: rgba(0, 0, 0, 0.8)] */
-  --card-shading: rgba(0, 0, 0, 0.4); /* cards background shading color [default: rgba(0, 0, 0, 0.4)] */
-  --popout-shading: rgba(0, 0, 0, 0.8); /* popouts background shading color [default: rgba(0, 0, 0, 0.8)] */
-  --modal-shading: rgba(0, 0, 0, 0.6); /* modals background shading color [default: rgba(0, 0, 0, 0.6)] */
+  --background-shading: rgba(0, 0, 0, 0.6); /* app background shading color [default: rgba(0, 0, 0, 0.8)] */
+  --card-shading: rgba(0, 0, 0, 0); /* cards background shading color [default: rgba(0, 0, 0, 0.4)] */
+  --popout-shading: rgba(175, 0, 255, 0.6); /* popouts background shading color [default: rgba(0, 0, 0, 0.8)] */
+  --modal-shading: rgba(235, 45, 199, 0.6); /* modals background shading color [default: rgba(0, 0, 0, 0.6)] */
   --input-shading: rgba(255, 255, 255, 0.05); /* inputs background shading color [default: rgba(255, 255, 255, 0.05)] */
-  --normal-text: #dcdcde; /* text color [default: #dcdcde] */
-  --muted-text: #86868e; /* muted text color [default: #86868e] */
+  --normal-text: #00ffcd; /* text color [default: #dcdcde] */
+  --muted-text: #00aa66; /* muted text color [default: #86868e] */
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
